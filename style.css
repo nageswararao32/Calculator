@@ -1,0 +1,246 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #0c4594);
+}
+.container{
+    background-color: #ccc;
+    width: 800px;
+    height: 500px;
+ 
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disp{
+    background-color: black;
+    width: 412px;
+    height: 402px;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+button{
+    cursor: pointer;
+}
+.display{
+    display:flex;
+}
+
+#display{
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5);
+    font-size: 40px;
+    text-align:left;
+    background-color: white;
+    border: 0px;
+    width: 310px;
+}
+#display::placeholder{
+    color: black;
+}
+
+.ac{
+    color: white; 
+    font-size: 30px;
+}
+.ac{
+    background-color:#10e3ce; 
+    width: 100px; 
+    height: 102px;
+    border: 0px;
+    cursor: pointer;
+}
+#operator{
+    background-color:black;
+    width: 100px; 
+    height: 75px; 
+    border: 0px;
+    color: white; 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#operators{
+    background-color:grey;
+    width: 100px; 
+    height: 75px; 
+    border: 0px; 
+    color: white; 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (min-width:740px){
+
+    .container{
+        background-color: #ccc;
+        width: 900px;
+        height: 600px;
+     
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .disp{
+        background-color: black;
+        width: 710px;
+        height: 502px;
+        box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    }
+    .calc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    button{
+        cursor: pointer;
+    }
+    .display{
+        display:flex;
+    }
+    
+    #display{
+        background: transparent;
+        box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5);
+        font-size: 40px;
+        text-align:left;
+        border: 0px; 
+        height: 100px; 
+        width: 78%; 
+        background-color:white;
+    }
+    #display::placeholder{
+        color: black;
+    }
+    
+    #acn{
+        color: white; 
+        font-size: 30px;
+    }
+
+    #operator{
+        background-color:black;
+        width: 182px; 
+        height: 100px; 
+        border: 0px;
+        color: white; 
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    #operators{
+        background-color:grey;
+        width: 152px; 
+        height: 100px; 
+        border: 0px; 
+        color: white; 
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    #acn{
+        background-color:#10e3ce; 
+        width: 153px; 
+        height: 102px;
+        border: 0px;
+        cursor: pointer;
+    }
+}
+ 
+
+@media screen and (max-width:340px){
+
+    .container{
+        background-color: #ccc;
+        width: 900px;
+        height: 600px;
+     
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .disp{
+        background-color: black;
+        width: 310px;
+        height: 220px;
+        box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    }
+    .calc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    button{
+        cursor: pointer;
+    }
+    .display{
+        display:flex;
+    }
+    
+    #display{
+        background: transparent;
+        box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5);
+        font-size: 40px;
+        text-align:left;
+        border: 0px; 
+        height: 70px; 
+        width: 95%; 
+        background-color:white;
+    }
+    #display::placeholder{
+        color: black;
+    }
+    
+    #acn{
+        color: white; 
+        font-size: 30px;
+    }
+
+    #operator{
+        background-color:black;
+        width: 77px; 
+        height: 35px; 
+        border: 0px;
+        color: white; 
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    #operators{
+        background-color:grey;
+        width: 67px; 
+        height: 37px; 
+        border: 0px; 
+        color: white; 
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    #acn{
+        background-color:#10e3ce; 
+        width: 80px; 
+        height: 72px;
+        border: 0px;
+        cursor: pointer;
+    }
+}
+ 
